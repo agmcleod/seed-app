@@ -17,6 +17,11 @@ wasm-bindgen-test = "0.3.18"
 
 [dependencies]
 seed = "0.8.0"
+strum = "0.18.0"
+strum_macros = "0.18.0"
+ulid = { version = "0.4.1", features = ["serde"] }
+serde = "1.0"
+
 
 [profile.release]
 lto = true
